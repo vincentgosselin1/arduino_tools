@@ -8,6 +8,9 @@ in a while without interupting the whole program. The wait function
 returns 1 when the time in ms has passed.
 
 //How to USE
+
+#include "arduinotools.h"
+
 SmartWait timer1;
 int j = 0 ;
 Serial.begin(9600);
